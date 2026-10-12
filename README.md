@@ -1,6 +1,6 @@
 <div align="center">
 
-# CSE127 Data Structures 1
+# C Data Structures Collection
 
 ### C Implementations of Core Linear and Tree Data Structures
 
@@ -10,25 +10,26 @@
 
 ## Overview
 
-This repository contains CSE127 coursework focused on implementing fundamental data structures in C. The exercises progress through linked lists, doubly linked lists, stacks, queues, binary search trees, and applications built on those structures.
+This repository focuses on implementing fundamental data structures in C. The programs progress through linked lists, doubly linked lists, stacks, queues, binary search trees, and applications built on those structures.
 
 ## Contents
 
 | Folder | Focus |
 | --- | --- |
-| Assignment 1 | Basic linked-list operations |
-| Assignment 2 | Doubly linked lists |
-| Assignment 3 | Stack operations |
-| Assignment 5 | Binary-search-tree dictionary exercise |
-| Project | Stack-based project iterations |
+| Linked lists | Basic singly linked-list operations |
+| Doubly linked lists | Bidirectional node management |
+| Stacks | Push, pop, and stack-based programs |
+| Binary search trees | Dictionary lookup and tree traversal |
+| Projects | Iterative stack-based applications |
 
 ## Run an Exercise
 
 Compile any individual `main.c` file from its folder:
 
 ```bash
-gcc "Assignment 3/HW3/main.c" -o stack-exercise
-./stack-exercise
+cd "CSE127-Data1/Assignment 3/HW3"
+gcc main.c -o stack-demo
+./stack-demo
 ```
 
 Several folders include Code::Blocks project files for the original development environment.
